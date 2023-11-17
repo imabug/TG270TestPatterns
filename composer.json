@@ -1,0 +1,57 @@
+{
+    "name": "imabug/tg270gen",
+    "description": "TG-270 Test Pattern Generator",
+    "keywords": ["AAPM", "TG-270", "monitor evaluation","test pattern", "laravel-zero", "console", "cli"],
+    "homepage": "https://v16.imablog.net/",
+    "type": "project",
+    "license": "GPL-3.0-or-later",
+    "support": {
+        "issues": "https://v16.imablog.net/",
+        "source": "https://v16.imablog.net/",
+        "email": "eugenemah@gmail.com"
+    },
+    "authors": [
+        {
+            "name": "Eugene Mah",
+            "email": "eugenemah@gmail.com",
+            "homepage": "https://v16.imablog.net/"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "intervention/image": "^3.0@beta",
+        "intonate/tinker-zero": "^1.2",
+        "laravel-zero/framework": "^10.2",
+        "laravel/prompts": "^0.1.13",
+        "nunomaduro/termwind": "^1.15"
+    },
+    "require-dev": {
+        "laravel/pint": "^1.13",
+        "mockery/mockery": "^1.6",
+        "pestphp/pest": "^2.22"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/"
+
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "bin": ["application"]
+}
