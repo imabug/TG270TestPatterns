@@ -13,9 +13,7 @@ TPG270 can create the following test patterns:
 
 Additional test patterns may be added in the future.
 
-## Documentation
-
-### Command Syntax
+## Command Syntax
 
 Test patterns are generated using commands of the form `php tpg270
 tpg:<test-pattern>` where `<test-pattern>` is one of the following:
